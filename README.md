@@ -4,7 +4,7 @@
 - Servidor Apahce o Ngnix
 - PHP >= 8.1, con las siguientes extensiones:
 - Ctype PHP Extension
-- cURL PHP Extension
+- Curl PHP Extension
 - DOM PHP Extension
 - Fileinfo PHP Extension
 - Filter PHP Extension
@@ -19,14 +19,11 @@
 - MariaDB Version 15.1
 - Composer >= 2.2
 
-# Proceso de ejecución
+## Proceso de ejecución
 
 1. Una vez descargue el repositorio desde [TalentPitch](https://github.com/sebaris/talentPitch.git)
 2. Ubíquese en la carpeta donde realizo el clone
-3. Ejecute:
-```bash
-composer install
-```
+3. Ejecute: composer install
 4. Cree el archivo .env para parametrizar la configuración de la conexión a la base de datos:
 ```php
 DB_CONNECTION=mysql
