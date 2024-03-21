@@ -33,7 +33,7 @@ return [
 
     'gpt' => [
         'url' => env('GPT_API_URL', 'https://api.openai.com/v1/chat/completions'),
-        'key' => env('GPT_API_KEY', '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'),
+        'key' => env('GPT_API_KEY', ''),
     ],
 
 ];
